@@ -15,10 +15,6 @@ TileEditor::TileEditor(sf::RenderWindow* hwnd, Input* in, GameState* game, sf::V
 		std::cout << "error loading font" << std::endl;
 	};
 
-	if (!mouseCurosorTex.loadFromFile("gfx/cursor-grabbed.png"))
-	{
-		std::cout << "Error loading cursor texture\n";
-	}
 	mouseCurosorGrab.setTexture(mouseCurosorTex);
 
 	// Set up tile manager

@@ -9,7 +9,6 @@
 #include <iostream>
 #include "../Level.h"
 
-
 class Menu : public BaseLevel
 {
 public:
@@ -32,20 +31,10 @@ public:
 
 	int selectedItem;
 	sf::Font UIfont;
-	sf::Font titleFont;
 
-	sf::Text Title;
 	UI UIText[2];
 	
-
-
-
-
 	sf::Sprite menu_sprite;
 	sf::Texture menu_texture;
-
-	sf::Vector2i MousePos;
-
-	bool mouseOverAnyItem;
 };
 
