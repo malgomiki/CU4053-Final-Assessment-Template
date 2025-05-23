@@ -82,12 +82,12 @@ void Level::handleInput(float dt)
 		gameState->setCurrentState(State::END);
 	}
 
-	//replace with pause screen once done with everything else
-	if (input->isKeyDown(sf::Keyboard::Tab))
-	{
-		input->setKeyUp(sf::Keyboard::Tab);
-		gameState->setCurrentState(State::TILEEDITOR);
-	}
+	////replace with pause screen once done with everything else
+	//if (input->isKeyDown(sf::Keyboard::Tab))
+	//{
+	//	input->setKeyUp(sf::Keyboard::Tab);
+	//	gameState->setCurrentState(State::TILEEDITOR);
+	//}
 	f22.handleInput(dt);
 }
 
